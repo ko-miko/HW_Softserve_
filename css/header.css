@@ -18,7 +18,7 @@
 .nav__menu {
     display: flex;
     flex-direction: column;
-    justify-content: ;
+    
     
 }
 
@@ -62,8 +62,13 @@ li {
 
 @media (min-width:991px) {
     
+    .nav__menu {
+        flex: 1;
+        flex-direction: column;
+    }
+    
     .menu__item {
-        padding: 30px;
+        padding: 1px;
     }
 
     .nav__menu {
