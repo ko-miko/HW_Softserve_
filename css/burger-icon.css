@@ -2,6 +2,10 @@
     display: none;
 }
 
+.burger-icon {
+    font-weight: 3.5 rem;
+}
+
 .nav__menu {
     display: none;
 }
@@ -14,6 +18,11 @@
 @media (min-width:991px) {
     .burger-icon {
         display: none;
+    }
+    
+    .nav__menu {
+        display: flex;
+     
     }
     
 }
