@@ -7,14 +7,22 @@
     
 }
 
+
+.main__page {
+    background: url(../img/Tesla2.png);
+    min-height: 100%;
+}
+
 .wrapper {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 24px;
+    /* padding: 0 24px; */
 }
 
 :root {
     --text-color: rgb(34, 34, 34);
+    --text-blue-color:#1088e4;
+    --brand-color-yellow:#f6c43d;
     font-family: 'Ubuntu', sans-serif;
 }
