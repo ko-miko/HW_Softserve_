@@ -12,8 +12,11 @@
 
 
 .main__page {
-    background: url(../img/Tesla2.png);
-    min-height: 100%;
+    background: url(../img/tesla1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 25px 56px;
+    
 }
 
 .wrapper {
